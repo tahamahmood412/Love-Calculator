@@ -28,7 +28,7 @@ var loveCalculator = function () {
     } else {
         document.getElementById("lovefinal").innerHTML = yourName + " and " + loversName + " your lovescore is " + loveFinal + " % ";
         let para=document.getElementById('love')
-        para.textContent=`&{yourName} loves & {loversName}`;
+        para.textContent=`${yourName}  loves  ${loversName}`;
     }
 };
 
