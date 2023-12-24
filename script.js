@@ -2,8 +2,17 @@
 var isNotClicked = true;
 
 var loveCalculator = function () {
-    var yourName = document.getElementById("firstname").value;
-    var loversName = document.getElementById("lovername").value;
+    // var name1 = document.getElementById("firstname").value;
+    // var yourName=name1.
+
+    // var name2 = document.getElementById("lovername").value;
+    // var loversName=name2.lower()
+    var name1 = document.getElementById("firstname").value;
+    var yourName = name1.toLowerCase();
+
+    var name2 = document.getElementById("lovername").value;
+    var loversName = name2.toLowerCase();
+    
     var loveScore = Math.random() * 100;
     var loveFinal = Math.round(loveScore);
 
