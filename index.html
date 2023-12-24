@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Love Calculator</title>
+  <!-- favicon-->
+  <link rel="shortcut icon" href="/heart.ico">
+  <!-- Style Sheet  -->
+  <link rel="stylesheet" href="./style.css">
+  <!-- icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <!-- fonts  -->
+  <link href="https://fonts.googleapis.com/css?family=Gamja+Flower|Lobster|Montserrat|Raleway" rel="stylesheet">
+</head>
+
+<body>
+  <div id="love-calculator" class="calculator">
+    <form id="loveForm" id="loveform" class="" action="/" onsubmit="return loveValidation()" method="post">
+      <h1>Welcome <i class="fas fa-heartbeat"></i></h1>
+      <h2 id="lovefinal">Calculate your love score</h2>
+      <p>Please enter names below</p>
+      <h2>Your Name</h2>
+      <input id="firstname" class="yourname name-box" type="text" name="firstName" placeholder="Your Name"></input>
+      <h2>Lover's Name</h2>
+      <input id="lovername" class="lovername name-box" type="text" name="lovername" placeholder="Lover's Name"></input>
+    </form>
+    <button id="love-button" onclick="loveCalculator()" class="buttons" type="submit" value="Submit"><i class="fas fa-heart"></i> Submit</button>
+    <button onclick="resetFunction()" class="buttons" type="submit"><i class="fas fa-heart-broken"></i> Reset</button>
+    <footer>
+      <a href="https://www.linkedin.com/in/taha-mehmood-229341219/"><i class="social-media fab fa-1x fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/tahamehmood977/"><i class="social-media fab fa-1x fa-instagram"></i></a>
+      <!-- <p id="notice">*Note:More updates coming soon!</p> -->
+      <p>© 2023 TM Productions</p>
+    </footer>
+  </div>
+  <script src="./script.js" charset="utf-8"></script>
+</body>
+
+</html>
