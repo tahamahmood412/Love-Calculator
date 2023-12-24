@@ -23,7 +23,7 @@ var loveCalculator = function () {
     } else if ((yourName === "taha" && loversName === "aqsa") || (yourName === "aqsa" && loversName === "taha")) {
         document.getElementById("lovefinal").innerHTML = yourName + " and " + loversName + " your lovescore is " + 100 + " % ";
     } else if (isNotClicked) {
-    } else if ((yourName === "taha" && loversName === "aqsa") || (yourName === "aqsa" && loversName === "taha")) {
+    } else if ((yourName === "faraz" && loversName === "aqsa") || (yourName === "aqsa" && loversName === "faraz")) {
         document.getElementById("lovefinal").innerHTML = yourName + " and " + loversName + " your lovescore is " + 100 + " % ";
     } else if (isNotClicked) {
         document.getElementById("lovefinal").innerHTML = yourName + " and " + loversName + " your lovescore is " + loveFinal + " % ";
