@@ -27,6 +27,8 @@ var loveCalculator = function () {
         isNotClicked = false; // Fixing the variable name
     } else {
         document.getElementById("lovefinal").innerHTML = yourName + " and " + loversName + " your lovescore is " + loveFinal + " % ";
+        let para=document.getElementById('love')
+        para.textContent=`&{yourName} loves & {loversName}`;
     }
 };
 
